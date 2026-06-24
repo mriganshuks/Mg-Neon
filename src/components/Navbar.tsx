@@ -152,7 +152,6 @@ export default function Navbar({ entranceComplete }: NavbarProps) {
           onMouseEnter={() => setExploreHovered(true)}
           onMouseLeave={() => setExploreHovered(false)}
         >
-          <i className="bi bi-apple text-[14px] sm:text-[16px]" />
           <span className="text-[13px] sm:text-[16px]">
             <ScrambleText text="Explore" isHovered={exploreHovered} />
           </span>

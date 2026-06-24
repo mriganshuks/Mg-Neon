@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const LAYERS = [
-  { num: 'Layer 1', name: 'Capture' },
-  { num: 'Layer 2', name: 'Process' },
-  { num: 'Layer 3', name: 'Interface' },
+  { num: 'Layer 1', name: 'Discover' },
+  { num: 'Layer 2', name: 'Design' },
+  { num: 'Layer 3', name: 'Deliver' },
 ];
 
 export default function Architecture() {
@@ -18,14 +18,16 @@ export default function Architecture() {
           transition={{ duration: 1.0 }}
         >
           <p className="mb-8 text-[13px] uppercase tracking-[0.2em] text-white/40 sm:text-[14px]">
-            Architecture
+            Process
           </p>
           <h2 className="mb-10 text-[clamp(28px,6vw,56px)] font-light leading-[1.15] tracking-[-0.02em] text-white">
-            Three layers. Zero friction.
+            Three Steps.
+            <br />
+            One Vision.
           </h2>
           <p className="mx-auto max-w-xl text-[15px] leading-relaxed text-white/45 sm:text-[17px]">
-            Sensor layer captures raw bioelectric signals. Processing layer isolates intent.
-            Interface layer delivers structured output to any connected system.
+            Every remarkable digital experience begins with understanding, evolves through
+            thoughtful design, and comes to life through precise development.
           </p>
         </motion.div>
 

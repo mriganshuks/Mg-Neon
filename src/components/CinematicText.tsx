@@ -58,11 +58,10 @@ export default function CinematicText() {
           className="max-w-5xl select-none px-6 text-center font-sans text-[22px] font-normal leading-[1.35] tracking-[-0.02em] text-white sm:px-12 sm:text-[30px] md:text-[36px] lg:text-[42px]"
           style={{ transform, opacity }}
         >
-          A neural-AI interface built on the architecture of the human nervous system.
-          SynapseX translates synaptic activity into computational intelligence. Every signal
-          becomes measurable, structured, and visible. It continuously reconstructs internal
-          state as a dynamic neural map. Biological noise is filtered into actionable cognitive
-          patterns.
+          MG Neon reimagines how modern websites should feel. Every animation, transition, and
+          interaction is carefully crafted to create a seamless digital journey. More than a
+          website, it is an experience designed to tell stories, create emotion, and connect
+          brands with people in memorable ways.
         </motion.p>
       </div>
     </section>

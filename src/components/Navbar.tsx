@@ -11,7 +11,7 @@ interface NavbarProps {
 export default function Navbar({ entranceComplete }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
-  const [downloadHovered, setDownloadHovered] = useState(false);
+  const [exploreHovered, setExploreHovered] = useState(false);
 
   const scrollToSection = (section: 'about' | 'metrics') => {
     const offset =
@@ -38,7 +38,7 @@ export default function Navbar({ entranceComplete }: NavbarProps) {
             whileTap={{ scale: 0.98 }}
           >
             <SynapseXLogo size={18} className="text-white" />
-            <span className="text-[16px] font-medium tracking-tight text-white">SynapseX</span>
+            <span className="text-[16px] font-medium tracking-tight text-white">MG Neon</span>
           </motion.div>
 
           <motion.div
@@ -96,7 +96,7 @@ export default function Navbar({ entranceComplete }: NavbarProps) {
           >
             <SynapseXLogo size={14} className="text-white" />
             <span className="whitespace-nowrap text-[13px] font-medium tracking-tight text-white">
-              SynapseX
+              MG Neon
             </span>
           </motion.div>
 
@@ -143,18 +143,18 @@ export default function Navbar({ entranceComplete }: NavbarProps) {
           </motion.div>
         </div>
 
-        {/* Download button */}
+        {/* Explore button */}
         <motion.button
           type="button"
           className="flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-white px-3.5 text-black sm:h-12 sm:gap-2 sm:px-6"
           whileHover={{ scale: 1.03, backgroundColor: '#e2e2e6' }}
           whileTap={{ scale: 0.97 }}
-          onMouseEnter={() => setDownloadHovered(true)}
-          onMouseLeave={() => setDownloadHovered(false)}
+          onMouseEnter={() => setExploreHovered(true)}
+          onMouseLeave={() => setExploreHovered(false)}
         >
           <i className="bi bi-apple text-[14px] sm:text-[16px]" />
           <span className="text-[13px] sm:text-[16px]">
-            <ScrambleText text="Download" isHovered={downloadHovered} />
+            <ScrambleText text="Explore" isHovered={exploreHovered} />
           </span>
         </motion.button>
       </div>

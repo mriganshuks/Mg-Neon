@@ -108,7 +108,7 @@ export default function Hero({ entranceComplete }: HeroProps) {
           color: 'transparent',
         }}
       >
-        TRANSCENDENCE
+        EXPERIENCE
       </div>
 
       <motion.div
@@ -122,9 +122,9 @@ export default function Hero({ entranceComplete }: HeroProps) {
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div className="flex flex-col gap-4">
             <h1 className="text-[clamp(40px,10vw,100px)] font-light leading-[0.95] tracking-[-0.03em] text-white">
-              <ScrambleIn text="Brain" delay={200} triggered={entranceComplete} />
+              <ScrambleIn text="Design" delay={200} triggered={entranceComplete} />
               <br />
-              <ScrambleIn text="And Body" delay={500} triggered={entranceComplete} />
+              <ScrambleIn text="And Motion" delay={500} triggered={entranceComplete} />
             </h1>
 
             <motion.p
@@ -141,16 +141,16 @@ export default function Hero({ entranceComplete }: HeroProps) {
                 ease: [0.215, 0.61, 0.355, 1],
               }}
             >
-              Built at the intersection of neuroscience and artificial intelligence.
-              SynapseX continuously maps neural pathways, cognitive load, and physiological
-              states into a single adaptive intelligence layer.
+              Built at the intersection of creativity, technology, and storytelling. MG Neon
+              transforms ordinary websites into immersive digital experiences designed to capture
+              attention, create engagement, and leave lasting impressions.
             </motion.p>
           </div>
 
           <h1 className="text-left text-[clamp(40px,10vw,100px)] font-light leading-[0.95] tracking-[-0.03em] text-white md:text-right">
             <ScrambleIn text="One" delay={700} triggered={entranceComplete} />
             <br />
-            <ScrambleIn text="Network" delay={1000} triggered={entranceComplete} />
+            <ScrambleIn text="Experience" delay={1000} triggered={entranceComplete} />
           </h1>
         </div>
       </motion.div>

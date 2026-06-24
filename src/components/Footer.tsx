@@ -23,17 +23,18 @@ export default function Footer() {
             <div className="mb-8 flex items-center gap-2.5">
               <SynapseXLogo size={18} className="text-white/70" />
               <span className="text-[15px] font-medium tracking-tight text-white/70">
-                SynapseX
+                MG Neon
               </span>
             </div>
             <p className="max-w-sm text-[14px] leading-relaxed text-white/40 sm:text-[15px]">
-              The next evolution of human-machine interaction. Built for those who refuse to
-              be limited by biology alone.
+              MG Neon is the flagship digital experience framework by MG Webworks. Created to
+              explore the future of design, motion, storytelling, and immersive web
+              experiences.
             </p>
           </div>
 
           <p className="mt-12 text-[12px] text-white/25">
-            (c) 2026 SynapseX Labs. All rights reserved.
+            © 2026 MG Webworks. All rights reserved.
           </p>
         </div>
       </div>

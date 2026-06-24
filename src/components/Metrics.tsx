@@ -4,9 +4,9 @@ const VIDEO_URL =
   'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260622_095810_ecea3dd2-fc5e-4e41-8696-4219290b6589.mp4';
 
 const METRICS = [
-  { value: '2.4ms', label: 'Synaptic Latency' },
-  { value: '99.7%', label: 'Signal Accuracy' },
-  { value: '140B', label: 'Neural Parameters' },
+  { value: '100%', label: 'Custom Built' },
+  { value: 'Premium', label: 'User Experience' },
+  { value: 'Future', label: 'Ready Design' },
 ];
 
 export default function Metrics() {

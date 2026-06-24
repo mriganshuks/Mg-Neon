@@ -5,20 +5,20 @@ const VIDEO_URL =
 
 const FEATURES = [
   {
-    title: 'Cortical Mapping',
-    description: 'Real-time spatial reconstruction of active neural regions.',
+    title: 'Premium Design',
+    description: 'Beautiful interfaces crafted for modern audiences.',
   },
   {
-    title: 'Signal Isolation',
-    description: 'Separates cognitive intent from biological noise.',
+    title: 'Interactive Motion',
+    description: 'Fluid animations that transform browsing into an experience.',
   },
   {
-    title: 'State Prediction',
-    description: 'Anticipates cognitive transitions before they occur.',
+    title: 'Performance Focus',
+    description: 'Fast, optimized experiences built for every screen and device.',
   },
   {
-    title: 'Loop Feedback',
-    description: 'Closed-loop adjustment based on outcome correlation.',
+    title: 'Custom Development',
+    description: 'Tailored solutions built around unique brands and ideas.',
   },
 ];
 
@@ -43,9 +43,9 @@ export default function Technology() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1.0 }}
           >
-            Adaptive
+            Digital
             <br />
-            Intelligence
+            Excellence
           </motion.h2>
 
           <motion.p
@@ -55,8 +55,9 @@ export default function Technology() {
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 1.0, delay: 0.2 }}
           >
-            The system learns your neural baseline within 72 hours. From there, every
-            cognitive state is mapped, predicted, and optimized in real time.
+            Every detail is crafted to balance aesthetics, performance, and usability. The
+            result is a digital experience that feels effortless while delivering maximum
+            impact.
           </motion.p>
         </div>
 
